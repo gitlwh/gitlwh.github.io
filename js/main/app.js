@@ -149,7 +149,7 @@ $(function() {
 		description: 'In the sports department, organized Sport Storm Basketball competition as the person in charge, also play role as referee during competition. Also played important role in activities held by other department such as new year carnival.'
 	},{
 		title: 'Zhejiang University culture promotion team',
-		description: 'Introducd Zhejiang University history to important visitors. In the publicity department, made layer, poster, bookmark，badge，etc to advertise activities held by this team. Also, as a person in charge, hold many important and popular activities.'
+		description: 'Introducd Zhejiang University history to important visitors. In the publicity department, made layer, poster, bookmark, badge, etc to advertise activities held by this team. Also, as a person in charge, hold many important and popular activities.'
 	},{
 		title: 'Rescue Simulation Group - ZJUbase',
 		description: 'A team led by Zhejiang University Institute of Cyber-Systems and Control for Rescue Simulation strategy research. My job is to improving strategy in program simulating the environment after one earthquake, with several agents playing different rule in it. Police force should clear the block. Fire brigade should exterminate the spreading fire. Ambulance team should rescue the injured normal agents. Multiple criterions are used to evaluate the control strategy of all the agents. All codes are written in JAVA.'
@@ -157,33 +157,40 @@ $(function() {
 
 	var mediaworks = [{
 		image: 'dist/images/cover.jpg',
-		description: '[Photoshop] Cover for culture promotion team handbook. '
+		description: '[Photoshop] Cover for culture promotion team handbook.',
+		demo: 'dist/images/cover.jpg'
 	},{
 		image: 'dist/images/badge.jpg',
-		description: '[Photoshop] Badge for culture promotion team seventh anniversary.'
+		description: '[Photoshop] Badge for culture promotion team seventh anniversary.',
+		demo: 'dist/images/badge.jpg'
 	},{
 		image: 'dist/images/Memorial.bmp',
-		description: '[Photoshop] Memorial mail for Zhejiang University campuses travel.'
+		description: '[Photoshop] Memorial mail for Zhejiang University campuses travel.',
+		demo: 'dist/images/Memorial.bmp'
 	},{
 		image: 'dist/images/Memorial2.jpg',
-		description: '[Photoshop] Memorial mail for Zhejiang University campuses travel.'
+		description: '[Photoshop] Memorial mail for Zhejiang University campuses travel.',
+		demo: 'dist/images/Memorial2.jpg'
 	},{
 		image: 'dist/images/head.png',
-		description: '[Photoshop] A profile image showing a bird burning in the sun and struggling to survive.'
+		description: '[Photoshop] A profile image showing a bird burning in the sun and struggling to survive.',
+		demo: 'dist/images/head.png'
 	},{
 		image: 'dist/images/fun.jpeg',
-		description: '[Photoshop, Rhino] Works for Zhejiang University Industrial Design competition'
+		description: '[Photoshop, Rhino] Works for Zhejiang University Industrial Design competition',
+		demo: 'dist/images/fun.jpeg'
 	},{
 		image: 'dist/images/flashlight.jpeg',
-		description: '[Photoshop, Rhino] Works for Zhejiang University Industrial Design competition'
+		description: '[Photoshop, Rhino] Works for Zhejiang University Industrial Design competition',
+		demo: 'dist/images/flashlight.jpeg'
 	},{
 		image: 'dist/images/chair.jpg',
-		description: '[Rhino] Works for Zhejiang University Industrial Design competition.'
+		description: '[Rhino] Works for Zhejiang University Industrial Design competition.',
+		demo: 'dist/images/chair.jpg'
 	},{
 		image: 'dist/images/Microcinema.jpeg',
 		description: '[Adobe Premiere Pro] A 5-min Microcinema taken by Nokia N8 for a Phone Microcinema competition.',
 		demo:"https://www.youtube.com/watch?v=iF8GV96w8eo"
-	
 	}];
 
 
