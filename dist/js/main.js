@@ -343,8 +343,8 @@ $(function() {
 
 	var awards = [
 	{
-		title: '2013-2014 Zhejiang Unversity first scholarship for research and innovation',
-		description: 'In honer of outstanding performance found by Zhejiang University'
+		title: '2013-2014 Zhejiang Unversity first class scholarship for research and innovation',
+		description: 'In honer of outstanding performance founded by Zhejiang University'
 	},{
 		title: 'Runner-up in 2013 China Robot Competition and Robocup Open',
 		description: 'Rules: http://roborescue.sourceforge.net/web/'
@@ -353,10 +353,10 @@ $(function() {
 		description: 'Rules: http://roborescue.sourceforge.net/web/'
 	},{
 		title: 'The first place in 2012 Zhejiang University business idea competition',
-		description: 'A competition organized by Zhejiang University to select best Startup idea.'
+		description: 'A competition held by Zhejiang University to select best Startup idea.'
 	},{
-		title: 'The Second prize in 2013 Zhejiang University Industrial Design competition',
-		description: 'A competition organized by Zhejiang University to select best Industrial Design.'
+		title: 'The Second class prize in 2013 Zhejiang University Industrial Design competition',
+		description: 'A competition held by Zhejiang University to select best Industrial Design.'
 	},{
 		title: '2011 Hangzhou International half Marathon',
 		description: 'Finish with result of 1h54m1s.'
@@ -367,8 +367,8 @@ $(function() {
 		title: 'Third place in 2014 Zhejiang University Swimming competition men 200m medley swimming',
 		description: 'Mix of four kind of swimming strokes 50m per stroke.'
 	},{
-		title: 'Second prize in 2014 Zhejiang provice business plan competition',
-		description: 'A competition organized by Zhejiang provice to select best business plan.'
+		title: 'Second class prize in 2014 Zhejiang provice business plan competition',
+		description: 'A competition held by Zhejiang provice to select best business plan.'
 	}];
 
 	var organizations = [{
@@ -416,10 +416,10 @@ $(function() {
 
 
 	var certificates = [{
-		title: '[CN]National Third Class tennis referee',
+		title: '[CN]National third class tennis referee',
 		description: 'Certificate for referee in tennis match.'
 	},{
-		title: '[CN]National Third Class psychological consultant',
+		title: '[CN]National third class psychological consultant',
 		description: 'Certificate for professional psychological consultant.'
 	}];
 
