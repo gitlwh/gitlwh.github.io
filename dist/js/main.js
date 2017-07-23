@@ -328,7 +328,7 @@ $(function() {
 		code: 'CN201320814007'
 	},{
 		title: '[CN]Multi-function Pendant',
-		image: 'dist/images/multiFunctionpendant.jpeg',
+		image: 'dist/images/multiFunctionPendant.jpeg',
 		description: 'This Multi-function Pendant is composed of decorated coat, metal skeleton and circuit element, which has the function of air fan, light, acoustics, USB charger, etc.',
 		keywords:'Machinery, Electronic',
 		demo: 'files/CN201320125266.pdf',
