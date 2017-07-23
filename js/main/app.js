@@ -182,7 +182,9 @@ $(function() {
 		description: 'A profile image showing a bird burning in the sun and struggling to survive.'
 	},{
 		image: 'dist/images/Microcinema.jpeg',
-		description: 'A 5-min Microcinema taken by Nokia N8 for a Microcinema competition.'
+		description: 'A 5-min Microcinema taken by Nokia N8 for a Microcinema competition.',
+		demo:"https://www.youtube.com/watch?v=iF8GV96w8eo"
+	
 	}];
 
 
