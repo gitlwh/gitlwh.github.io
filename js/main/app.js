@@ -180,6 +180,9 @@ $(function() {
 	},{
 		image: 'dist/images/head.png',
 		description: 'A profile image showing a bird burning in the sun and struggling to survive.'
+	},{
+		image: 'dist/images/Microcinema.jpeg',
+		description: 'A 5-min Microcinema taken by Nokia N8 for a Microcinema competition.'
 	}];
 
 
