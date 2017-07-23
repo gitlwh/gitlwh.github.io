@@ -11,7 +11,8 @@ var app = app || {};
             description: '',
             keywords: '',
             demo: '',
-            source: ''
+            source: '',
+            code: ''
         },
 
         dump: function() {

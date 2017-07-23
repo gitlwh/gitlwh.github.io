@@ -20,7 +20,7 @@
 	.description{
 	    font-size: 70%;
 	    text-align: left;
-	    height: 100px;
+	    height: 70px;
 	    overflow: scroll;
 	}
 	.keywords{
@@ -28,6 +28,16 @@
 	    text-align: left;
 	    height: 50px;
 	    overflow: scroll;
+	}
+	.code{
+		font-size: 70%;
+	}
+	.title{
+		height: 60px;
+		overflow: scroll;
+	}
+	.card{
+		/*min-height: 555px;*/
 	}
 	</style>
 </head>
@@ -91,18 +101,29 @@
 		<!-- /header -->
 		<section class="projects row">
 			<header id="feature" class="col-md-12 featured-header">
-				<h2>My Projects</h2>
-				<!--<button id="fe-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-knight"></i>Front-End Projects</button>
-				<button id="fs-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-queen"></i>Full Stack Projects</button>-->
+				<button id="fe-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-king"></i>My Projects</button>
+				<button id="fs-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-queen"></i>Paper and Patents</button>
+				<button id="aw-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-pawn"></i>Competition</button>
+				<button id="og-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-bishop"></i>Organization</button>
+				<button id="mw-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-knight"></i>Media works</button>
+				<button id="ce-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-tower"></i>Certificates</button>
 			</header>
 		</section>
 		<script id="project-template" type="text-template">
-			<img src=<%- image %> alt="
-			<%- title %> image" class="center-block img-responsive img-size">
-  				<h4 class="text-large"><%- title %></h4>
+			<% if(image.length>0){ %>
+			<img src=<%- image %> alt="<%- title %> image" class="center-block img-responsive img-size">
+			<%}%>
+			<% if(title.length>0){ %>
+			<h4 class="text-large title"><%- title %></h4>
+			<%}%>
+  				
 				<span class="text-medium">
 				<div class = "description"><strong style="color: white;">Description</strong>: <% if(description.length>0){ %><%-description%><% } %></div>
-				<div class = "keywords"><strong style="color: white;">Keywords</strong>: <% if(keywords.length>0){ %><%-keywords%><% } %></div>
+				<% if(keywords.length>0){ %>
+					<div class = "keywords"><strong style="color: white;">Keywords</strong>: <%-keywords%></div><% } %>
+				<% if(code.length>0){ %>
+                    	<div class="code"><%-code%></div>
+                    <%}%>
                 <% if (demo.length) { %>
                     <a href=<%- demo %> target="_blank">
                         DEMO
@@ -118,7 +139,7 @@
                     </a>
 						<% } %>
 							<% if (source.length < 1 && demo.length < 1) { %>
-								Source Not Available Yet
+								<br>
 								<% } %>
 									</span>
 		</script>

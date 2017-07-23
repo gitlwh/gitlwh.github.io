@@ -7,12 +7,20 @@ var app = app || {};
         el: '.projects',
         events: {
             'click #fe-btn': 'clickedFEBtn',
-            'click #fs-btn': 'clickedFSBtn'
+            'click #fs-btn': 'clickedFSBtn',
+            'click #aw-btn': 'clickedAWBtn',
+            'click #og-btn': 'clickedORBtn',
+            'click #mw-btn': 'clickedMWBtn',
+            'click #ce-btn': 'clickedCEBtn'
         },
 
-        initialize: function(feProjects, fsProjects) {
+        initialize: function(feProjects, fsProjects, awards, organizations,mediaworks,certificates) {
             this.feProjects = feProjects;
             this.fsProjects = fsProjects;
+            this.awards = awards;
+            this.organizations = organizations;
+            this.mediaworks = mediaworks;
+            this.certificates = certificates;
             this.collection = new app.ProjectList(this.feProjects);
             this.render();
         },
@@ -49,6 +57,32 @@ var app = app || {};
             this.collection.set(this.fsProjects);
             this.render();
         },
+
+        clickedAWBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.awards);
+            this.render();
+        },
+        clickedORBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.organizations);
+            this.render();
+        },
+        clickedMWBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.mediaworks);
+            this.render();
+        },
+        clickedCEBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.certificates);
+            this.render();
+        },
+
         animateProjects: function() {
             // Animate the projects when a render() is called.
             $('.card').hide().first().show("fast", function showNext() {
