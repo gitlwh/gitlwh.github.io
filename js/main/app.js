@@ -191,6 +191,18 @@ $(function() {
 		image: 'dist/images/Microcinema.jpeg',
 		description: '[Adobe Premiere Pro] A 5-min Microcinema taken by Nokia N8 for a Phone Microcinema competition.',
 		demo:"https://www.youtube.com/watch?v=iF8GV96w8eo"
+	},{
+		image: 'dist/images/chair2.jpg',
+		description: '[Idea] A chair which looks elegant and can help people get up easily with spring resilience.',
+		demo: 'dist/images/chair2.jpg'
+	},{
+		image: 'dist/images/crutch.jpg',
+		description: '[Idea] A crutch which enables injured people (like wrenching ankle) to put their foot on so that they can get better faster',
+		demo:'dist/images/crutch.jpg'
+	},{
+		image: 'dist/images/dustpan.jpg',
+		description: '[Idea] A dustpan which can hold dust in case dust may run out when collecting following dust.',
+		demo:'dist/images/dustpan.jpg'
 	}];
 
 
