@@ -106,7 +106,7 @@
 				<button id="fs-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-queen"></i>Paper and Patents</button>
 				<button id="aw-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-pawn"></i>Competition</button>
 				<button id="og-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-bishop"></i>Organization</button>
-				<button id="mw-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-knight"></i>Media works</button>
+				<button id="mw-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-knight"></i>Design works</button>
 				<button id="ce-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-tower"></i>Certificates</button>
 			</header>
 		</section>
@@ -123,7 +123,7 @@
 				<% if(keywords.length>0){ %>
 					<div class = "keywords"><strong style="color: white;">Keywords</strong>: <%-keywords%></div><% } %>
 				<% if(code.length>0){ %>
-                    	<div class="code"><%-code%></div>
+                    	<div class="code"><%-code%><br></div>
                     <%}%>
                 <% if (demo.length) { %>
                     <a href=<%- demo %> target="_blank">
