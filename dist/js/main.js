@@ -248,13 +248,13 @@ $(function() {
 	}, {
 		title: 'Survey website',
 		image: 'dist/images/Survey.jpeg',
-		description: 'This is a website that enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
+		description: 'This is a website enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
 		keywords: 'JavaScript, CSS, HTML, PHP, MySQL, jQuery, Bootstrap, AJAX, Image cropper, Jqcloud, Bars square',
 		demo: 'http://survey.dev.ksand.com/'
 	}, {
 		title: 'Password Manager',
 		image: 'dist/images/passwordManager.jpeg',
-		description: 'This is a website that enabling different user to log in, configure profile, store and search passwords, built on framework of Codeigniter. As a project during intern, the source code is unavaliable here! The website is running on inner server, the demo is unavaliable as well!',
+		description: 'This is a website enabling different user to log in, configure profile, store and search passwords, built on framework of Codeigniter. As a project during intern, the source code is unavaliable here! The website is running on inner server, the demo is unavaliable as well!',
 		keywords:'Codeigniter, JavaScript, HTML, CSS, AngularJS, jQuery'
 	}, {
 		title: 'Botnet Detector',
@@ -369,6 +369,9 @@ $(function() {
 	},{
 		title: 'Second class prize in 2014 Zhejiang provice business plan competition',
 		description: 'A competition held by Zhejiang provice to select best business plan.'
+	},{
+		title: 'Second class prize in 2012 Zhejiang University Physics Tournament',
+		description: 'A competition held by Zhejiang University to do experiments and debate about certain physical problem.'
 	}];
 
 	var organizations = [{
