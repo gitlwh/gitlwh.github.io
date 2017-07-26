@@ -30,6 +30,12 @@ $(function() {
 		description: 'This is a website enabling different user to log in, configure profile, store and search passwords, built on framework of Codeigniter. As a project during intern, the source code is unavaliable here! The website is running on inner server, the demo is unavaliable as well!',
 		keywords:'Codeigniter, JavaScript, HTML, CSS, AngularJS, jQuery'
 	}, {
+		title: 'Lehigh survey',
+		image: 'dist/images/lehighsurvey.jpeg',
+		description: 'This is a website app enabling different user to log in with google account and release survey and answer questions.',
+		keywords:'AngularJS, MongoDB, Memcached, Google Node authentication, AWS',
+		source: 'https://github.com/gitlwh/Survey'
+	}, {
 		title: 'Botnet Detector',
 		image: 'dist/images/botnetDetector.jpg',
 		description: 'A tool used to detect botnet based on existing P2P botnet packet dataset and health packet dataset. Using machine learning to differentiate botnet trace out of normal trace.',
