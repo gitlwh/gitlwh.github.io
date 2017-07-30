@@ -246,6 +246,12 @@ $(function() {
 		demo: 'https://gitlwh.github.io/Event-planner/',
 		source: 'https://github.com/gitlwh/Event-planner'
 	}, {
+		title: 'Form hooker wordpress plugin',
+		image: 'dist/images/Wordpress.png',
+		description: 'This is a project including a wordpress plugin which can get content of wordpress submit form from Contact form 7 and Visual form builder and post to frontend and a frontend website which can help to manage users, clients and read all post content. This is a backend project and it would be installed on all website managed by KSAND corp.',
+		keywords: 'Wordpress plugin, PHP, JavaScript, CSS, HTML, MySQL, Date Range Picker, Contact form 7, Visual form builder',
+		demo: "http://dev.ksand.com/contact-us/"
+	}, {
 		title: 'Survey website',
 		image: 'dist/images/Survey.jpeg',
 		description: 'This is a website enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
@@ -277,7 +283,7 @@ $(function() {
 	}, {
 		title: 'FUSE Filesystem',
 		image: 'dist/images/FUSEFilesystem.jpg',
-		keywords: 'C/C++',
+		keywords: 'C/C++, FUSE',
 		description: 'A file system with the FUSE Userspace filesystem module.',
 		source: 'https://github.com/gitlwh/FUSE-Filesystem'
 	}, {
