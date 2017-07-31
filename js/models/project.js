@@ -7,12 +7,14 @@ var app = app || {};
 
         defaults: {
             title: '',
+            chinesetitle: '',
             image: '',
             description: '',
             keywords: '',
             demo: '',
             source: '',
-            code: ''
+            code: '',
+            type: ''
         },
 
         dump: function() {

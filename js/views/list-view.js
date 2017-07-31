@@ -11,10 +11,11 @@ var app = app || {};
             'click #aw-btn': 'clickedAWBtn',
             'click #og-btn': 'clickedORBtn',
             'click #mw-btn': 'clickedMWBtn',
-            'click #ce-btn': 'clickedCEBtn'
+            'click #ce-btn': 'clickedCEBtn',
+            'click #mv-btn': 'clickedMVBtn'
         },
 
-        initialize: function(feProjects, fsProjects, awards, organizations,mediaworks,certificates) {
+        initialize: function(feProjects, fsProjects, awards, organizations,mediaworks,certificates,movies) {
             this.feProjects = feProjects;
             this.fsProjects = fsProjects;
             this.awards = awards;
@@ -22,6 +23,7 @@ var app = app || {};
             this.mediaworks = mediaworks;
             this.certificates = certificates;
             this.collection = new app.ProjectList(this.feProjects);
+            this.movies = movies;
             this.render();
         },
 
@@ -38,6 +40,23 @@ var app = app || {};
         renderProject: function(item, projElement) {
             var projectView = new app.ProjectView({
                 model: item
+            });
+            this.$el.append(projectView.render().el);
+        },
+
+        render2: function() {
+            this.collection.each(function(item) {
+                this.renderProject2(item);
+            }, this);
+            this.animateProjects();
+        },
+
+        // render a project by creating a ProjectView and appending the
+        // element it renders to the list' element
+        renderProject2: function(item, projElement) {
+            var projectView = new app.ProjectView({
+                model: item,
+                className: 'card col-sm-6 col-md-2 text-center smaller'
             });
             this.$el.append(projectView.render().el);
         },
@@ -81,6 +100,12 @@ var app = app || {};
             $('article').remove();
             this.collection.set(this.certificates);
             this.render();
+        },
+        clickedMVBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.movies);
+            this.render2();
         },
 
         animateProjects: function() {

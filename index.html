@@ -37,8 +37,14 @@
 		height: 60px;
 		overflow: scroll;
 	}
-	.card{
-		/*min-height: 555px;*/
+	.smaller .title{
+		font-size: 100% ! important;
+		height: 25px;
+		margin-top: 5px;
+    	margin-bottom: 2px;
+	}
+	.smaller{
+		max-width: calc((100% - 60px) / 6) !important;
 	}
 	</style>
 </head>
@@ -108,6 +114,7 @@
 				<button id="og-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-bishop"></i>Organizations</button>
 				<button id="mw-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-knight"></i>Design works</button>
 				<button id="ce-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-tower"></i>Certificates</button>
+				<button id="mv-btn" class="btn btn-default text-primary"><i class="glyphicon glyphicon-cd"></i>Movies</button>
 			</header>
 		</section>
 		<script id="project-template" type="text-template">
@@ -117,9 +124,13 @@
 			<% if(title.length>0){ %>
 			<h4 class="text-large title"><%- title %></h4>
 			<%}%>
-  				
+  				<% if(type.length==0){ %>
 				<span class="text-medium">
-				<div class = "description"><strong style="color: white;">Description</strong>: <% if(description.length>0){ %><%-description%><% } %></div>
+
+				<% if(description.length>0){ %>
+					<div class = "description"><strong style="color: white;">Description</strong>: <% if(description.length>0){ %><%-description%><% } %></div>
+					<% } %>
+				
 				<% if(keywords.length>0){ %>
 					<div class = "keywords"><strong style="color: white;">Keywords</strong>: <%-keywords%></div><% } %>
 				<% if(code.length>0){ %>
@@ -143,6 +154,13 @@
 								<br>
 								<% } %>
 									</span>
+									<% }else{%>
+
+
+									<% if(chinesetitle.length>0){ %>
+			<h4 class="text-large title"><%- chinesetitle %></h4>
+			<%}%>
+			<%}%>
 		</script>
 		<!-- footer -->
 		<footer id="contact" class="row grey">
