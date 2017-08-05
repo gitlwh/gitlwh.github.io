@@ -382,7 +382,7 @@ $(function() {
 		chinesetitle: "加勒比海盗5：死无对证",
 		type: '2'
 	},{
-		image: 'dist/images/movies/Pirates of_the_Caribbean_On_Stranger_Tides.jpeg',
+		image: 'dist/images/movies/Pirates_of_the_Caribbean_On_Stranger_Tides.jpeg',
 		title: 'Pirates of the Caribbean: On Stranger Tides',
 		chinesetitle: "加勒比海盗4：惊涛怪浪",
 		type: '2'
@@ -392,7 +392,7 @@ $(function() {
 		chinesetitle: "加勒比海盗3：世界的尽头",
 		type: '2'
 	},{
-		image: 'dist/images/movies/Pirates of_the_Caribbean_Dead_Man_s_Chest.webp',
+		image: 'dist/images/movies/Pirates_of_the_Caribbean_Dead_Man_s_Chest.webp',
 		title: "Pirates of the Caribbean: Dead Man's Chest",
 		chinesetitle: "加勒比海盗2：聚魂棺",
 		type: '2'
@@ -4082,7 +4082,7 @@ $(function() {
 		chinesetitle: "帝企鹅日记",
 		type: '2'
 	},{
-		image: 'dist/images/movies/Assembly.jpegg',
+		image: 'dist/images/movies/Assembly.jpeg',
 		title: "Assembly",
 		chinesetitle: "集结号",
 		type: '2'
@@ -4167,7 +4167,7 @@ $(function() {
 		chinesetitle: "环游地球八十天",
 		type: '2'
 	},{
-		image: 'dist/images/movies/Dad_Where_Are_We_Going?.webp',
+		image: 'dist/images/movies/Dad_Where_Are_We_Going.webp',
 		title: "Dad, Where Are We Going?",
 		chinesetitle: "爸爸去哪儿",
 		type: '2'
