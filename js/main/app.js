@@ -382,6 +382,26 @@ $(function() {
 		chinesetitle: "加勒比海盗5：死无对证",
 		type: '2'
 	},{
+		image: 'dist/images/movies/Pirates of_the_Caribbean_On_Stranger_Tides.jpeg',
+		title: 'Pirates of the Caribbean: On Stranger Tides',
+		chinesetitle: "加勒比海盗4：惊涛怪浪",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Pirates_of_the_Caribbean_At_World_s_End.jpeg',
+		title: "Pirates of the Caribbean: At World's End",
+		chinesetitle: "加勒比海盗3：世界的尽头",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Pirates of_the_Caribbean_Dead_Man_s_Chest.webp',
+		title: "Pirates of the Caribbean: Dead Man's Chest",
+		chinesetitle: "加勒比海盗2：聚魂棺",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pearl.webp',
+		title: 'Pirates of the Caribbean: The Curse of the Black Pearl',
+		chinesetitle: "加勒比海盗",
+		type: '2'
+	},{
 		image: 'dist/images/movies/Guardians_of_the_Galaxy_Vol_2.jpeg',
 		title: 'Guardians of the Galaxy Vol. 2',
 		chinesetitle: "银河护卫队2",
@@ -4040,6 +4060,186 @@ $(function() {
 		image: 'dist/images/movies/Hands_Up!.webp',
 		title: "Hands Up!",
 		chinesetitle: "举起手来！",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Inception.jpeg',
+		title: "Inception",
+		chinesetitle: "盗梦空间",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Truman_Show.jpeg',
+		title: "The Truman Show",
+		chinesetitle: "楚门的世界",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Lion_King.jpeg',
+		title: "The Lion King",
+		chinesetitle: "狮子王",
+		type: '2'
+	},{
+		image: 'dist/images/movies/March_of_the_Penguins.jpeg',
+		title: "March of the Penguins",
+		chinesetitle: "帝企鹅日记",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Assembly.jpegg',
+		title: "Assembly",
+		chinesetitle: "集结号",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Bai_Fangli.jpg',
+		title: "Bai Fangli",
+		chinesetitle: "白方礼",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Tokyo_Trial.jpeg',
+		title: "The Tokyo Trial",
+		chinesetitle: "东京审判",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Ten_Brothers.webp',
+		title: "Ten Brothers",
+		chinesetitle: "十兄弟",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Seoul_Raiders.webp',
+		title: "Seoul Raiders",
+		chinesetitle: "韩城攻略",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Tora!_Tora!_Tora!.webp',
+		title: "Tora! Tora! Tora!",
+		chinesetitle: "虎！虎！虎！",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Not_One_Less.webp',
+		title: "Not One Less",
+		chinesetitle: "一个都不能少",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_6th_Day.webp',
+		title: "The 6th Day",
+		chinesetitle: "第六日",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Storm_Rider.webp',
+		title: "The Storm Rider",
+		chinesetitle: "风云雄霸天下",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Bicentennial_Man.jpeg',
+		title: "Bicentennial Man",
+		chinesetitle: "机器管家",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Island.webp',
+		title: "The Island",
+		chinesetitle: "逃出克隆岛",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Himalaya_Singh.webp',
+		title: "Himalaya Singh",
+		chinesetitle: "喜马拉亚星",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Mask.webp',
+		title: "The Mask",
+		chinesetitle: "变相怪杰",
+		type: '2'
+	},{
+		image: 'dist/images/movies/American_Dreams_in_China.webp',
+		title: "American Dreams in China",
+		chinesetitle: "中国合伙人",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Inspector_Gadget.webp',
+		title: "Inspector Gadget",
+		chinesetitle: "神探加吉特",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Ghostbusters.webp',
+		title: "Ghostbusters",
+		chinesetitle: "超能敢死队",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Around_the_World_in_80_Days.webp',
+		title: "Around the World in 80 Days",
+		chinesetitle: "环游地球八十天",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Dad_Where_Are_We_Going?.webp',
+		title: "Dad, Where Are We Going?",
+		chinesetitle: "爸爸去哪儿",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Inferno.webp',
+		title: "Inferno",
+		chinesetitle: "但丁密码",
+		type: '2'
+	},{
+		image: 'dist/images/movies/War_Dogs.webp',
+		title: "War Dogs",
+		chinesetitle: "军火贩",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Rogue_One_A_Star_Wars_Story.webp',
+		title: "Rogue One: A Star Wars Story",
+		chinesetitle: "星球大战外传：侠盗一号",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Toy_Story.webp',
+		title: "Toy Story",
+		chinesetitle: "玩具总动员",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Prince_Nezha_s_Triumph_Against_Dragon_King.webp',
+		title: "Prince Nezha's Triumph Against Dragon King",
+		chinesetitle: "哪吒闹海",
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Parent_Trap.webp',
+		title: "The Parent Trap",
+		chinesetitle: "天生一对",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure.jpeg',
+		title: "Digimon Adventure",
+		chinesetitle: "数码兽大冒险",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_Bokura_no_War_Game!.jpeg',
+		title: "Digimon Adventure: Bokura no War Game!",
+		chinesetitle: "数码宝贝大电影：我们的战争游戏",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_02_Hurricane_Touchdown!_The_Golden_Digimentals.webp',
+		title: "Digimon Adventure 02 - Hurricane Touchdown! The Golden Digimentals",
+		chinesetitle: "数码宝贝大电影三：超绝进化！黄金的数码装甲！",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Revenge_of_Diaboromon.webp',
+		title: "Digimon: Revenge of Diaboromon",
+		chinesetitle: "数码宝贝大电影四：超恶魔兽的反击",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Battle_of_Adventurers.webp',
+		title: "Digimon: Battle of Adventurers",
+		chinesetitle: "数码宝贝大电影五：冒险者的战斗",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Runaway_Locomon.jpg',
+		title: "Digimon: Runaway Locomon",
+		chinesetitle: "暴走特急",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Island_of_the_Lost_Digimon.webp',
+		title: "Digimon: Island of the Lost Digimon",
+		chinesetitle: "古代数码宝贝复活",
+		type: '2'
+	},{
+		image: 'dist/images/movies/DIGITAL_MONSTER_X-evolution.jpg',
+		title: "DIGITAL MONSTER X-evolution",
+		chinesetitle: "数码兽X进化",
 		type: '2'
 	}
 	]
