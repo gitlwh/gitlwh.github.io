@@ -4188,8 +4188,8 @@ $(function() {
 		type: '2'
 	},{
 		image: 'dist/images/movies/Toy_Story.webp',
-		title: "Toy Story",
-		chinesetitle: "玩具总动员",
+		title: "Toy Story 2",
+		chinesetitle: "玩具总动员2",
 		type: '2'
 	},{
 		image: 'dist/images/movies/Prince_Nezha_s_Triumph_Against_Dragon_King.webp',
