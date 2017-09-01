@@ -4442,8 +4442,8 @@ $(function() {
 		type: '2'
 	},{
 		image: 'dist/images/movies/Toy_Story.webp',
-		title: "Toy Story",
-		chinesetitle: "玩具总动员",
+		title: "Toy Story 2",
+		chinesetitle: "玩具总动员2",
 		type: '2'
 	},{
 		image: 'dist/images/movies/Prince_Nezha_s_Triumph_Against_Dragon_King.webp',
@@ -4504,12 +4504,6 @@ $(function() {
 	}, {
 		url: 'tel: +1-484-747-3196',
 		ion: 'ios-telephone'
-	}, {
-		url: 'https://www.linkedin.com/in/waha-li-a5b26a111/',
-		ion: 'social-linkedin'
-	}, {
-		url: 'https://github.com/gitlwh',
-		ion: 'social-github'
 	}, {
 		url: 'https://www.instagram.com/waha.li/?hl=en',
 		ion: 'social-instagram'

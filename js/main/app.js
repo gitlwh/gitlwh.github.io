@@ -4251,12 +4251,6 @@ $(function() {
 		url: 'tel: +1-484-747-3196',
 		ion: 'ios-telephone'
 	}, {
-		url: 'https://www.linkedin.com/in/waha-li-a5b26a111/',
-		ion: 'social-linkedin'
-	}, {
-		url: 'https://github.com/gitlwh',
-		ion: 'social-github'
-	}, {
 		url: 'https://www.instagram.com/waha.li/?hl=en',
 		ion: 'social-instagram'
 	}];
