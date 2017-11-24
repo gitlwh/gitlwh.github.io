@@ -288,7 +288,8 @@ $(function() {
 		title: 'Password Manager',
 		image: 'dist/images/passwordManager.jpeg',
 		description: 'This is a website enabling different user to log in, configure profile, store and search passwords, built on framework of Codeigniter. As a project during intern, the source code is unavaliable here! The website is running on inner server, the demo is unavaliable as well!',
-		keywords:'Codeigniter, JavaScript, HTML, CSS, AngularJS, jQuery'
+		keywords:'Codeigniter, JavaScript, HTML, CSS, AngularJS, jQuery, MySQL',
+		source: 'https://github.com/gitlwh/Passwordmanager'
 	}, {
 		title: 'Lehigh survey',
 		image: 'dist/images/lehighsurvey.jpeg',
@@ -326,6 +327,24 @@ $(function() {
 		keywords: 'Kaggle, top5%, Python, Numpy, Scipy, Pandas, Xgboost, Sklearn, Vowpal Wabbit',
 		demo: 'https://inclass.kaggle.com/c/loyal-customer-prediction',
 		source: 'https://github.com/gitlwh/Loyal-Customer-Prediction'
+	}, {
+		title: 'k Means clustering demonstrator',
+		image: 'dist/images/kMeansDemonstration.jpeg',
+		description: 'A Matlab application that performs K Means clustering. This app show as a API where you can generate some random points and add some points manually. You can also perform k-means clustering and mark points with different color.',
+		keywords: 'Matlab, API, K Means clustering',
+		source: 'https://github.com/gitlwh/Advanced_Programming_Techniques/tree/master/hw3'
+	}, {
+		title: 'Mini HTTP Server',
+		image: 'dist/images/MiniHTTPServer.png',
+		description: 'A simple http server which can only implement GET request. Implementing a log to record everything happening. It can send file type and last modified time in the header of response.',
+		keywords: 'Java, HTTP server, response header',
+		source: 'https://github.com/gitlwh/Advanced_Programming_Techniques/tree/master/MiniHTTPServer-wel615'
+	}, {
+		title: 'Implementation of fully convolutional network',
+		image: 'dist/images/fullyConvolutionalNetwork.jpg',
+		description: 'Implementing FCN on MS COCO to do segmentation objects and ISIC dataset to classify maliganant and benign Melanoma. FCN is based on VGG16.',
+		keywords: 'Python, Fully convolutional network, Tensorflow, keras, VGG, matplotlib',
+		source: 'https://github.com/gitlwh/Deep_learning/tree/master/hw3'
 	}];
 
 	var fullStackProjects = [
@@ -1634,11 +1653,6 @@ $(function() {
 		image: 'dist/images/movies/The_Core.webp',
 		title: "The Core",
 		chinesetitle: "地心抢险记",
-		type: '2'
-	},{
-		image: 'dist/images/movies/Terminator_Genisys.jpeg',
-		title: "Terminator Genisys",
-		chinesetitle: "终结者：创世纪",
 		type: '2'
 	},{
 		image: 'dist/images/movies/Star_Trek_Into_Darkness.jpeg',
