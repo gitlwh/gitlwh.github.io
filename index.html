@@ -22,20 +22,20 @@
 	    font-size: 70%;
 	    text-align: left;
 	    height: 70px;
-	    overflow: scroll;
+	    overflow-y: scroll;
 	}
 	.keywords{
 	    font-size: 70%;
 	    text-align: left;
 	    height: 50px;
-	    overflow: scroll;
+	    overflow-y: scroll;
 	}
 	.code{
 		font-size: 70%;
 	}
 	.title{
 		height: 60px;
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 	.smaller .title{
 		font-size: 100% ! important;
@@ -45,6 +45,9 @@
 	}
 	.smaller{
 		max-width: calc((100% - 60px) / 6) !important;
+	}
+	::-webkit-scrollbar { 
+	    display: none; 
 	}
 	</style>
 </head>
