@@ -91,6 +91,12 @@ $(function() {
 		description: 'Implementing FCN on MS COCO to do segmentation objects and ISIC dataset to classify maliganant and benign Melanoma. FCN is based on VGG16.',
 		keywords: 'Python, Fully convolutional network, Tensorflow, keras, VGG, matplotlib',
 		source: 'https://github.com/gitlwh/Deep_learning/tree/master/hw3'
+	}, {
+		title: 'Neural network in Twitter sentimental analysis',
+		image: 'dist/images/twitter-sentiment.jpg',
+		description: 'Exploration on best neural network structure in twitter sentimental analysis task.',
+		keywords: 'Python, LSTM, Convolutional NN, keras, Attention, sentimental analysis',
+		source: 'https://github.com/gitlwh/Deep_learning/tree/master/FinalProject_wel615_WeihengLi'
 	}];
 
 	var fullStackProjects = [
