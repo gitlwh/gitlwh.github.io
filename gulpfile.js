@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     imageminPngquant = require('imagemin-pngquant'),
     del = require('del'),
     concat = require('gulp-concat');
+    gutil = require('gulp-util');
 
 var jsOrder = [
     'js/models/*.js',
@@ -30,6 +31,7 @@ gulp.task('styles', function() {
             suffix: '.min'
         }))
         .pipe(minifycss())
+        .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
         .pipe(gulp.dest('dist/css'));
 });
 
@@ -42,6 +44,7 @@ gulp.task('scripts', function() {
             suffix: '.min'
         }))
         .pipe(uglify())
+        .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
         .pipe(gulp.dest('dist/js'));
 });
 

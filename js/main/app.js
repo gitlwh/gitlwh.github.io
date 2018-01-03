@@ -97,6 +97,19 @@ $(function() {
 		description: 'Exploration on best neural network structure in twitter sentimental analysis task.',
 		keywords: 'Python, LSTM, Convolutional NN, keras, Attention, sentimental analysis',
 		source: 'https://github.com/gitlwh/Deep_learning/tree/master/FinalProject_wel615_WeihengLi'
+	}, {
+		title: 'Movie viewer',
+		image: 'dist/images/movieViewer.jpg',
+		description: 'A responsive React app that loading data from The Movie Database (TMDb) API, enabling you to view detail about the movie you are interested',
+		keywords: 'React, Typeahead.js, SASS, Browserify, Babel, Gulp, imagemin',
+		source: 'https://github.com/gitlwh/Movie_viewer',
+		demo: 'https://gitlwh.github.io/Movie_viewer/'
+	}, {
+		title: 'Restaurant recommendation website',
+		image: 'dist/images/myRecommendation.png',
+		description: 'A django website which shows infomation about restaurant and dishes and the rate given from user.',
+		keywords: 'Django, Heroku, SQLite, Gunicorn, Whitenoise, WSGI',
+		source: 'https://github.com/gitlwh/myrecommendations'
 	}];
 
 	var fullStackProjects = [
