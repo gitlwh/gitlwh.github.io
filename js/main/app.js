@@ -3,6 +3,49 @@ var app = app || {};
 $(function() {
 	'use strict';
 
+	var fullStackProjects = [{
+		title: 'Survey website',
+		image: 'dist/images/Survey.jpeg',
+		description: 'This is a website enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
+		keywords: 'JavaScript, CSS, HTML, PHP, MySQL, jQuery, Bootstrap, AJAX, Image cropper, Jqcloud, Bars square',
+		demo: 'http://survey.dev.ksand.com/'
+	},{
+		title: 'Form hooker wordpress plugin',
+		image: 'dist/images/WordPress.png',
+		description: 'This is a project including a wordpress plugin which can get content of wordpress submit form from Contact form 7 and Visual form builder and post to frontend and a frontend website which can help to manage users, clients and read all post content. This is a backend project and it would be installed on all website managed by KSAND corp.',
+		keywords: 'Wordpress plugin, PHP, JavaScript, CSS, HTML, MySQL, Date Range Picker, Contact form 7, Visual form builder',
+		demo: "http://dev.ksand.com/contact-us/"
+	},{
+		title: 'GenoNova official website (under development)',
+		image: 'dist/images/Genonova.png',
+		description: 'This is official website for GenoNova. Inc. I write it in Django. It is to introduce the company and provide data demostration and download tools.',
+		keywords: 'Django, Gunicorn, Nginx, Echarts, AWS EC2',
+		demo: 'http://www.yidiandata.com/'
+	},{
+		title: 'Password Manager',
+		image: 'dist/images/passwordManager.jpeg',
+		description: 'This is a website enabling different user to log in, configure profile, store and search passwords, built on framework of Codeigniter. As a project during intern, the source code is unavaliable here! The website is running on inner server, the demo is unavaliable as well!',
+		keywords:'Codeigniter, PHP, JavaScript, HTML, CSS, AngularJS, jQuery, MySQL',
+		source: 'https://github.com/gitlwh/Passwordmanager'
+	},{
+		title: 'Okta login API Implementation',
+		image: 'dist/images/OKTA.jpg',
+		description: 'An simple Implementation of Okta client management API, with function of register, login, change password and show profile. The whole projects is divided into client implemented with ReactJS and Redux and API implemented by ExpressJS.',
+		keywords: 'Okta, ReactJS, Redux, ExpressJS',
+		source: 'https://github.com/gitlwh/MembershipSample'
+	},{
+		title: 'Lehigh survey',
+		image: 'dist/images/lehighsurvey.jpeg',
+		description: 'This is a website app enabling different user to log in with google account and release survey and answer questions.',
+		keywords:'ExpressJS, MongoDB, Memcached, Google Node authentication, AWS',
+		source: 'https://github.com/gitlwh/Survey'
+	},{
+		title: 'Restaurant recommendation website',
+		image: 'dist/images/myRecommendation.png',
+		description: 'A django website which shows infomation about restaurant and dishes and the rate given from user.',
+		keywords: 'Django, Heroku, SQLite, Gunicorn, Whitenoise, WSGI',
+		source: 'https://github.com/gitlwh/myrecommendations'
+	}];
 	var frontEndProjects = [{
 		title: 'Cross Bug Game',
 		image: 'dist/images/crossBug.jpg',
@@ -11,108 +54,87 @@ $(function() {
 		demo: 'https://gitlwh.github.io/crossBug/',
 		source: 'https://github.com/gitlwh/crossBug',
 		type: ''
-	}, {
+	},{
 		title: 'Event Planner',
 		image: 'dist/images/eventPlanner.jpeg',
 		description: 'This is an event planner which can build a record about the place, people, time, note of things you are going to do.',
 		keywords:'JavaScript, AngularJS, Gulp, jQuery, Google Map, Autocomplete, SCSS',
 		demo: 'https://gitlwh.github.io/Event-planner/',
 		source: 'https://github.com/gitlwh/Event-planner'
-	}, {
-		title: 'Form hooker wordpress plugin',
-		image: 'dist/images/WordPress.png',
-		description: 'This is a project including a wordpress plugin which can get content of wordpress submit form from Contact form 7 and Visual form builder and post to frontend and a frontend website which can help to manage users, clients and read all post content. This is a backend project and it would be installed on all website managed by KSAND corp.',
-		keywords: 'Wordpress plugin, PHP, JavaScript, CSS, HTML, MySQL, Date Range Picker, Contact form 7, Visual form builder',
-		demo: "http://dev.ksand.com/contact-us/"
-	}, {
-		title: 'Survey website',
-		image: 'dist/images/Survey.jpeg',
-		description: 'This is a website enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
-		keywords: 'JavaScript, CSS, HTML, PHP, MySQL, jQuery, Bootstrap, AJAX, Image cropper, Jqcloud, Bars square',
-		demo: 'http://survey.dev.ksand.com/'
-	}, {
-		title: 'Password Manager',
-		image: 'dist/images/passwordManager.jpeg',
-		description: 'This is a website enabling different user to log in, configure profile, store and search passwords, built on framework of Codeigniter. As a project during intern, the source code is unavaliable here! The website is running on inner server, the demo is unavaliable as well!',
-		keywords:'Codeigniter, JavaScript, HTML, CSS, AngularJS, jQuery, MySQL',
-		source: 'https://github.com/gitlwh/Passwordmanager'
-	}, {
-		title: 'Lehigh survey',
-		image: 'dist/images/lehighsurvey.jpeg',
-		description: 'This is a website app enabling different user to log in with google account and release survey and answer questions.',
-		keywords:'AngularJS, MongoDB, Memcached, Google Node authentication, AWS',
-		source: 'https://github.com/gitlwh/Survey'
-	}, {
-		title: 'Botnet Detector',
-		image: 'dist/images/botnetDetector.jpg',
-		description: 'A tool used to detect botnet based on existing P2P botnet packet dataset and health packet dataset. Using machine learning to differentiate botnet trace out of normal trace.',
-		keywords:'Python, Tshark, Numpy, Sklearn',
-		source: 'https://github.com/gitlwh/Botnet-Detector'
-	}, {
-		title: 'User Level Threading Library',
-		image: 'dist/images/userLevelThreadingLibrary.jpg',
-		description: 'A user level threading library with function of create, wait, join, exit, etc.',
-		keywords:'C/C++',
-		source: 'https://github.com/gitlwh/User-Level-Threading-Library'
-	}, {
-		title: 'FUSE Filesystem',
-		image: 'dist/images/FUSEFilesystem.jpg',
-		keywords: 'C/C++, FUSE',
-		description: 'A file system with the FUSE Userspace filesystem module.',
-		source: 'https://github.com/gitlwh/FUSE-Filesystem'
-	}, {
-		title: 'File Server',
-		image: 'dist/images/fileServer.jpg',
-		description: 'This is an server which enables user to upload and download file in multiple secure methods.',
-		keywords:'C/C++, RSA, Openssl, md5, Socket',
-		source: 'https://github.com/gitlwh/File-server'
-	}, {
-		title: 'Loyal Customer Prediction',
-		image: 'dist/images/loyalCustomer.jpg',
-		description: 'The challenge of this competition was to predict which shoppers that responded to a rebate coupon on a specific period, would become repeat buyers of that product. This is code to generate my submission to the Kaggle competition - Loyal Customer Prediction.',
-		keywords: 'Kaggle, top5%, Python, Numpy, Scipy, Pandas, Xgboost, Sklearn, Vowpal Wabbit',
-		demo: 'https://inclass.kaggle.com/c/loyal-customer-prediction',
-		source: 'https://github.com/gitlwh/Loyal-Customer-Prediction'
-	}, {
-		title: 'k Means clustering demonstrator',
-		image: 'dist/images/kMeansDemonstration.jpeg',
-		description: 'A Matlab application that performs K Means clustering. This app show as a API where you can generate some random points and add some points manually. You can also perform k-means clustering and mark points with different color.',
-		keywords: 'Matlab, API, K Means clustering',
-		source: 'https://github.com/gitlwh/Advanced_Programming_Techniques/tree/master/hw3'
-	}, {
-		title: 'Mini HTTP Server',
-		image: 'dist/images/MiniHTTPServer.png',
-		description: 'A simple http server which can only implement GET request. Implementing a log to record everything happening. It can send file type and last modified time in the header of response.',
-		keywords: 'Java, HTTP server, response header',
-		source: 'https://github.com/gitlwh/Advanced_Programming_Techniques/tree/master/MiniHTTPServer-wel615'
-	}, {
-		title: 'Implementation of fully convolutional network',
-		image: 'dist/images/fullyConvolutionalNetwork.jpg',
-		description: 'Implementing FCN on MS COCO to do segmentation objects and ISIC dataset to classify maliganant and benign Melanoma. FCN is based on VGG16.',
-		keywords: 'Python, Fully convolutional network, Tensorflow, keras, VGG, matplotlib',
-		source: 'https://github.com/gitlwh/Deep_learning/tree/master/hw3'
-	}, {
-		title: 'Neural network in Twitter sentimental analysis',
-		image: 'dist/images/twitter-sentiment.jpg',
-		description: 'Exploration on best neural network structure in twitter sentimental analysis task.',
-		keywords: 'Python, LSTM, Convolutional NN, keras, Attention, sentimental analysis',
-		source: 'https://github.com/gitlwh/Deep_learning/tree/master/FinalProject_wel615_WeihengLi'
-	}, {
+	},{
 		title: 'Movie viewer',
 		image: 'dist/images/movieViewer.jpg',
 		description: 'A responsive React app that loading data from The Movie Database (TMDb) API, enabling you to view detail about the movie you are interested',
 		keywords: 'React, Typeahead.js, SASS, Browserify, Babel, Gulp, imagemin',
 		source: 'https://github.com/gitlwh/Movie_viewer',
 		demo: 'https://gitlwh.github.io/Movie_viewer/'
-	}, {
-		title: 'Restaurant recommendation website',
-		image: 'dist/images/myRecommendation.png',
-		description: 'A django website which shows infomation about restaurant and dishes and the rate given from user.',
-		keywords: 'Django, Heroku, SQLite, Gunicorn, Whitenoise, WSGI',
-		source: 'https://github.com/gitlwh/myrecommendations'
+	},{
+		title: 'Implementation of 2CHAINZ website',
+		image: 'dist/images/2CHAINZ.jpeg',
+		description: 'Build the 2CHAINZ website based on an website design image. A test for an interview.',
+		keywords: 'HTML, CSS, JavaScript, Bootstrap, Gulp',
+		source: 'https://github.com/gitlwh/MembershipSample',
+		demo: 'https://gitlwh.github.io/2chainz/'
 	}];
-
-	var fullStackProjects = [
+	var DataandAIProjects = [{
+		title: 'Neural network in Twitter sentimental analysis',
+		image: 'dist/images/twitter-sentiment.jpg',
+		description: 'Exploration on best neural network structure in twitter sentimental analysis task.',
+		keywords: 'Python, LSTM, Convolutional NN, keras, Attention, sentimental analysis',
+		source: 'https://github.com/gitlwh/Deep_learning/tree/master/FinalProject_wel615_WeihengLi'
+	},{
+		title: 'Implementation of fully convolutional network',
+		image: 'dist/images/fullyConvolutionalNetwork.jpg',
+		description: 'Implementing FCN on MS COCO to do segmentation objects and ISIC dataset to classify maliganant and benign Melanoma. FCN is based on VGG16.',
+		keywords: 'Python, Fully convolutional network, Tensorflow, keras, VGG, matplotlib',
+		source: 'https://github.com/gitlwh/Deep_learning/tree/master/hw3'
+	},{
+		title: 'Loyal Customer Prediction',
+		image: 'dist/images/loyalCustomer.jpg',
+		description: 'The challenge of this competition was to predict which shoppers that responded to a rebate coupon on a specific period, would become repeat buyers of that product. This is code to generate my submission to the Kaggle competition - Loyal Customer Prediction.',
+		keywords: 'Kaggle, top5%, Python, Numpy, Scipy, Pandas, Xgboost, Sklearn, Vowpal Wabbit',
+		demo: 'https://inclass.kaggle.com/c/loyal-customer-prediction',
+		source: 'https://github.com/gitlwh/Loyal-Customer-Prediction'
+	},{
+		title: 'Botnet Detector',
+		image: 'dist/images/botnetDetector.jpg',
+		description: 'A tool used to detect botnet based on existing P2P botnet packet dataset and health packet dataset. Using machine learning to differentiate botnet trace out of normal trace.',
+		keywords:'Python, Tshark, Numpy, Sklearn',
+		source: 'https://github.com/gitlwh/Botnet-Detector'
+	},{
+		title: 'k Means clustering demonstrator',
+		image: 'dist/images/kMeansDemonstration.jpeg',
+		description: 'A Matlab application that performs K Means clustering. This app show as a API where you can generate some random points and add some points manually. You can also perform k-means clustering and mark points with different color.',
+		keywords: 'Matlab, API, K Means clustering',
+		source: 'https://github.com/gitlwh/Advanced_Programming_Techniques/tree/master/hw3'
+	}]
+	var otherProjects = [{
+		title: 'User Level Threading Library',
+		image: 'dist/images/userLevelThreadingLibrary.jpg',
+		description: 'A user level threading library with function of create, wait, join, exit, etc.',
+		keywords:'C/C++',
+		source: 'https://github.com/gitlwh/User-Level-Threading-Library'
+	},{
+		title: 'FUSE Filesystem',
+		image: 'dist/images/FUSEFilesystem.jpg',
+		keywords: 'C/C++, FUSE',
+		description: 'A file system with the FUSE Userspace filesystem module.',
+		source: 'https://github.com/gitlwh/FUSE-Filesystem'
+	},{
+		title: 'File Server',
+		image: 'dist/images/fileServer.jpg',
+		description: 'This is an server which enables user to upload and download file in multiple secure methods.',
+		keywords:'C/C++, RSA, Openssl, md5, Socket',
+		source: 'https://github.com/gitlwh/File-server'
+	},{
+		title: 'Mini HTTP Server',
+		image: 'dist/images/MiniHTTPServer.png',
+		description: 'A simple http server which can only implement GET request. Implementing a log to record everything happening. It can send file type and last modified time in the header of response.',
+		keywords: 'Java, HTTP server, response header',
+		source: 'https://github.com/gitlwh/Advanced_Programming_Techniques/tree/master/MiniHTTPServer-wel615'
+	}];
+	
+	var paperAndPatents = [
 	{
 		title: 'An accurate power-sharing control method based on circulating-current power model for voltage-source-inverter parallel system',
 		image: 'dist/images/paper.jpeg',
@@ -4288,6 +4310,6 @@ $(function() {
 		ion: 'social-instagram'
 	}];
 
-	app.listView = new app.ListView(frontEndProjects, fullStackProjects, awards, organizations,mediaworks,certificates,movies);
+	app.listView = new app.ListView(fullStackProjects, frontEndProjects, DataandAIProjects, otherProjects, paperAndPatents, awards, organizations,mediaworks,certificates,movies);
 	app.contactLV = new app.ContactListView(myContacts);
 });

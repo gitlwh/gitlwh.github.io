@@ -6,8 +6,11 @@ var app = app || {};
     app.ListView = Backbone.View.extend({
         el: '.projects',
         events: {
-            'click #fe-btn': 'clickedFEBtn',
             'click #fs-btn': 'clickedFSBtn',
+            'click #fe-btn': 'clickedFEBtn',
+            'click #da-btn': 'clickedDABtn',
+            'click #op-btn': 'clickedOPBtn',
+            'click #pp-btn': 'clickedPPBtn',
             'click #aw-btn': 'clickedAWBtn',
             'click #og-btn': 'clickedORBtn',
             'click #mw-btn': 'clickedMWBtn',
@@ -15,14 +18,17 @@ var app = app || {};
             'click #mv-btn': 'clickedMVBtn'
         },
 
-        initialize: function(feProjects, fsProjects, awards, organizations,mediaworks,certificates,movies) {
-            this.feProjects = feProjects;
+        initialize: function(fsProjects, feProjects, daProjects, opProjects, ppProjects, awards, organizations,mediaworks,certificates,movies) {
             this.fsProjects = fsProjects;
+            this.feProjects = feProjects;
+            this.daProjects = daProjects;
+            this.opProjects = opProjects;
+            this.ppProjects = ppProjects;
             this.awards = awards;
             this.organizations = organizations;
             this.mediaworks = mediaworks;
             this.certificates = certificates;
-            this.collection = new app.ProjectList(this.feProjects);
+            this.collection = new app.ProjectList(this.fsProjects);
             this.movies = movies;
             this.render();
         },
@@ -62,6 +68,14 @@ var app = app || {};
         },
 
         // 'this' is handling DOM element
+        clickedFSBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.fsProjects);
+            this.render();
+        },
+
+        // 'this' is handling DOM element
         clickedFEBtn: function(event) {
             // Removes existing articles.
             $('article').remove();
@@ -69,11 +83,24 @@ var app = app || {};
             this.render();
         },
 
-        // 'this' is handling DOM element
-        clickedFSBtn: function(event) {
+        clickedDABtn: function(event) {
             // Removes existing articles.
             $('article').remove();
-            this.collection.set(this.fsProjects);
+            this.collection.set(this.daProjects);
+            this.render();
+        },
+
+        clickedOPBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.opProjects);
+            this.render();
+        },
+
+        clickedPPBtn: function(event) {
+            // Removes existing articles.
+            $('article').remove();
+            this.collection.set(this.ppProjects);
             this.render();
         },
 
