@@ -285,6 +285,12 @@ $(function() {
 	'use strict';
 
 	var fullStackProjects = [{
+		title: 'Vidaminds official website and product demostration platform (under development)',
+		image: 'dist/images/vidaminds.jpg',
+		description: 'This is official website for Vidaminds. Inc. I write it in Django. It is to introduce the service, team and contact method of company and demostrate the NLP data of Vidaminds, Inc.',
+		keywords: 'Django, Gunicorn, Nginx, Echarts, AWS EC2',
+		demo: 'http://www.vidaminds.com/'
+	},{
 		title: 'Survey website',
 		image: 'dist/images/Survey.jpeg',
 		description: 'This is a website enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
@@ -572,6 +578,36 @@ $(function() {
 	}];
 
 	var movies = [{
+		image: 'dist/images/movies/A_Quiet_Place.jpeg',
+		title: "A Quiet Place",
+		chinesetitle: '寂静之地',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Tomb_Raider.jpeg',
+		title: "Tomb Raider",
+		chinesetitle: '古墓丽影：源起之战',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Ready_Player_One.jpeg',
+		title: "Ready Player One",
+		chinesetitle: '头号玩家',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Star_Wars_The_Last_Jedi.jpeg',
+		title: "Star Wars: The Last Jedi",
+		chinesetitle: '星球大战8：最后的绝地武士',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Guilty_of_Mind.jpeg',
+		title: "Guilty of Mind",
+		chinesetitle: '心理罪',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Wolf_Warrior_2.jpg',
+		title: "Wolf Warrior 2",
+		chinesetitle: '战狼2',
+		type: '2'
+	},{
 		image: 'dist/images/movies/Blood_Diamond.jpeg',
 		title: "Blood Diamond",
 		chinesetitle: '血钻',
