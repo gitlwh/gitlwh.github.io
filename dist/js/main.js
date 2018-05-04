@@ -285,7 +285,7 @@ $(function() {
 	'use strict';
 
 	var fullStackProjects = [{
-		title: 'Vidaminds official website and product demostration platform (under development)',
+		title: 'Vidaminds official website and product demostration platform',
 		image: 'dist/images/vidaminds.jpg',
 		description: 'This is official website for Vidaminds. Inc. I write it in Django. It is to introduce the service, team and contact method of company and demostrate the NLP data of Vidaminds, Inc.',
 		keywords: 'Django, Gunicorn, Nginx, Echarts, AWS EC2',
@@ -296,6 +296,13 @@ $(function() {
 		description: 'This is a website enabling different user to sign up, log in, configure profile, build up survey with five kinds of questions. As a project during intern, the source code is unavaliable here!',
 		keywords: 'JavaScript, CSS, HTML, PHP, MySQL, jQuery, Bootstrap, AJAX, Image cropper, Jqcloud, Bars square',
 		demo: 'http://survey.dev.ksand.com/'
+
+	},{
+		title: 'Auction website',
+		image: 'dist/images/auction.jpg',
+		description: 'This is an online auction website demo. People can view the up-to-date price, follow the product they are intersted, and search the product they want. Composed by Angular4 client and ExpressJS server',
+		keywords: 'JavaScript, Angular4, ExpressJS, TextScript',
+		source: 'https://github.com/gitlwh/Online_Auction'
 	},{
 		title: 'Form hooker wordpress plugin',
 		image: 'dist/images/WordPress.png',
@@ -578,6 +585,16 @@ $(function() {
 	}];
 
 	var movies = [{
+		image: 'dist/images/movies/Rampage.jpeg',
+		title: "Rampage",
+		chinesetitle: '狂暴巨兽',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Johnny_English.jpeg',
+		title: "Johnny English",
+		chinesetitle: '憨豆特工',
+		type: '2'
+	},{
 		image: 'dist/images/movies/A_Quiet_Place.jpeg',
 		title: "A Quiet Place",
 		chinesetitle: '寂静之地',
