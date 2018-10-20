@@ -222,6 +222,9 @@ $(function() {
 		title: '2014 Hangzhou International Marathon',
 		description: 'Finish with result of 5h16m46s.'
 	},{
+		title: "2017 Bethlehem Runner's Word Half Marathon",
+		description: 'Finish with result of 1h58m32s'
+	},{
 		title: 'Third place in 2014 Zhejiang University Swimming competition men 200m medley swimming',
 		description: 'Mix of four kind of swimming strokes 50m per stroke.'
 	},{
@@ -304,6 +307,31 @@ $(function() {
 	}];
 
 	var movies = [{
+		image: 'dist/images/movies/Avengers_Infinity_War.jpeg',
+		title: "Avengers: Infinity War",
+		chinesetitle: '复仇者联盟3：无限战争',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Cape_Fear.jpeg',
+		title: "Cape Fear",
+		chinesetitle: '恐怖角',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Deadpool_2.jpg',
+		title: "Deadpool 2",
+		chinesetitle: '死侍2',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Hell_To_Pay.jpeg',
+		title: "Suicide Squad: Hell to Pay",
+		chinesetitle: '自杀小队：严厉惩罚',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Crippled_Avengers.jpeg',
+		title: "Crippled Avengers",
+		chinesetitle: '残缺',
+		type: '2'
+	},{
 		image: 'dist/images/movies/Rampage.jpeg',
 		title: "Rampage",
 		chinesetitle: '狂暴巨兽',
