@@ -588,6 +588,111 @@ $(function() {
 	}];
 
 	var movies = [{
+		image: 'dist/images/movies/Alien_Covenant.jpeg',
+		title: "Alien: Covenant",
+		chinesetitle: '异形：契约',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Lego_Batman_Movie.jpeg',
+		title: "The Lego Batman Movie",
+		chinesetitle: '乐高蝙蝠侠大电影',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Night_at_the_Museum_Battle_of_the_Smithsonian.jpeg',
+		title: "Night at the Museum: Battle of the Smithsonian",
+		chinesetitle: '博物馆奇妙夜2',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Beauty_and_the_Beast.jpeg',
+		title: "Beauty and the Beast",
+		chinesetitle: '美女与野兽',
+		type: '2'
+	},{
+		image: 'dist/images/movies/A_Midsummer_Night_s_Dream.webp',
+		title: "A Midsummer Night's Dream",
+		chinesetitle: '仲夏夜之梦',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Spider_Man_Into_the_Spider_Verse.jpeg',
+		title: "Spider-Man: Into the Spider-Verse",
+		chinesetitle: '蜘蛛侠：平行宇宙',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Ghost_in_the_Shell_movie.jpeg',
+		title: "Ghost in the Shell",
+		chinesetitle: '攻壳机动队',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Baby_Driver.jpeg',
+		title: "Baby Driver",
+		chinesetitle: '极盗车神',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Logan.jpeg',
+		title: "Logan",
+		chinesetitle: '金刚狼3：殊死一战',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Kingsglaive_Final_Fantasy_XV.jpeg',
+		title: "Kingsglaive: Final Fantasy XV",
+		chinesetitle: '最终幻想15：王者之剑',
+		type: '2'
+	},{
+		image: 'dist/images/movies/It.jpeg',
+		title: "It",
+		chinesetitle: '小丑回魂',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Blade_Runner_2049.jpeg',
+		title: "Blade Runner 2049",
+		chinesetitle: '银翼杀手2049',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Genius.jpeg',
+		title: "Genius",
+		chinesetitle: '天才捕手',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Arrival.jpeg',
+		title: "Arrival",
+		chinesetitle: '降临',
+		type: '2'
+	},{
+		image: 'dist/images/movies/A_Cure_for_Wellness.jpeg',
+		title: "A Cure for Wellness",
+		chinesetitle: '救命解药',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Loving_Vincent.jpeg',
+		title: "Loving Vincent",
+		chinesetitle: '挚爱梵高',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Fate_of_the_Furious.jpeg',
+		title: "The Fate of the Furious",
+		chinesetitle: '速度与激情8',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Aquaman.jpeg',
+		title: "Aquaman",
+		chinesetitle: '海王',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Happy_Death_Day.jpg',
+		title: "Happy Death Day",
+		chinesetitle: '忌日快乐',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Ralph_Breaks_the_Internet.jpeg',
+		title: "Ralph_Breaks_the_Internet",
+		chinesetitle: '无敌破坏王2：大闹互联网',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Fantastic_Beasts_The_Crimes_of_Grindelwald.jpeg',
+		title: "Fantastic Beasts: The Crimes of Grindelwald",
+		chinesetitle: '神奇动物：格林德沃之罪',
+		type: '2'
+	},{
 		image: 'dist/images/movies/Avengers_Infinity_War.jpeg',
 		title: "Avengers: Infinity War",
 		chinesetitle: '复仇者联盟3：无限战争',
