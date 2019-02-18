@@ -588,6 +588,111 @@ $(function() {
 	}];
 
 	var movies = [{
+		image: 'dist/images/movies/Digimon_Adventure_Tri_6.jpeg',
+		title: "Digimon Adventure Tri. 6",
+		chinesetitle: '数码宝贝大冒险tri. 第6章：我们的未来',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_Tri_5.jpeg',
+		title: "Digimon Adventure Tri. 5",
+		chinesetitle: '数码宝贝大冒险tri. 第5章：共生',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_Tri_4.jpeg',
+		title: "Digimon Adventure Tri. 4",
+		chinesetitle: '数码宝贝大冒险tri. 第4章：丧失',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_Tri_3_Confession.jpeg',
+		title: "Digimon Adventure Tri. 3: Confession",
+		chinesetitle: '数码宝贝大冒险tri. 第3章：告白',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_Tri_2_Decision.jpeg',
+		title: "Digimon Adventure Tri.2: Decision",
+		chinesetitle: '数码宝贝大冒险tri. 第2章：决意',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Digimon_Adventure_tri_Reunion.jpeg',
+		title: "Digimon Adventure tri: Reunion",
+		chinesetitle: '数码宝贝大冒险tri. 第1章：再会',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Alita_Battle_Angel.jpeg',
+		title: "Alita: Battle Angel",
+		chinesetitle: '阿丽塔：战斗天使',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Wandering_Earth.jpeg',
+		title: "The Wandering Earth",
+		chinesetitle: '流浪地球',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Guardian.jpeg',
+		title: "The Guardian",
+		chinesetitle: '大护法',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Wind_River.jpeg',
+		title: "Wind River",
+		chinesetitle: '猎凶风河谷',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Possession_of_Hannah_Grace.jpeg',
+		title: "The Possession of Hannah Grace",
+		chinesetitle: '汉娜格蕾丝的着魔',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Gukoroku_Traces_of_Sin.jpeg',
+		title: "Gukoroku - Traces of Sin",
+		chinesetitle: '愚行录',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Get_Out.jpeg',
+		title: "Get Out",
+		chinesetitle: '逃出绝命镇',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Limehouse_Golem.jpeg',
+		title: "The Limehouse Golem",
+		chinesetitle: '莱姆豪斯的杀人魔',
+		type: '2'
+	},{
+		image: 'dist/images/movies/T2_Trainspotting.jpeg',
+		title: "T2 Trainspotting",
+		chinesetitle: '猜火车2',
+		type: '2'
+	},{
+		image: 'dist/images/movies/One_Hundred_Thousand_Bad_Jokes_II.jpeg',
+		title: "One Hundred Thousand Bad Jokes II",
+		chinesetitle: '十万个冷笑话2',
+		type: '2'
+	},{
+		image: 'dist/images/movies/John_Wick_Chapter_2.jpeg',
+		title: "John Wick: Chapter 2",
+		chinesetitle: '疾速特攻',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Split.jpeg',
+		title: "Split",
+		chinesetitle: '分裂',
+		type: '2'
+	},{
+		image: 'dist/images/movies/The_Girl_with_All_the_Gifts.jpeg',
+		title: "The Girl with All the Gifts",
+		chinesetitle: '天赐之女',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Glass.jpeg',
+		title: "Glass",
+		chinesetitle: '玻璃先生',
+		type: '2'
+	},{
+		image: 'dist/images/movies/Memoir_of_a_Murderer.jpeg',
+		title: "Memoir of a Murderer",
+		chinesetitle: '杀人者的记忆法',
+		type: '2'
+	},{
 		image: 'dist/images/movies/Alien_Covenant.jpeg',
 		title: "Alien: Covenant",
 		chinesetitle: '异形：契约',
