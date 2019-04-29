@@ -588,6 +588,66 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/Avengers-Endgame.jpeg',
+        title: "Avengers: Endgame",
+        chinesetitle: '复仇者联盟4：终局之战',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Crazy_Alien.jpeg',
+        title: "Crazy Alien",
+        chinesetitle: '疯狂的外星人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Escape_Room.jpeg',
+        title: "Escape Room",
+        chinesetitle: '密室逃生',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Andhadhun.jpeg',
+        title: "Andhadhun",
+        chinesetitle: '调音师',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Thor_Ragnarok.jpeg',
+        title: "Thor: Ragnarok",
+        chinesetitle: '雷神3：诸神黄昏',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Us.jpeg',
+        title: "Us",
+        chinesetitle: '我们',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Captain_Marvel.jpeg',
+        title: "Captain Marvel",
+        chinesetitle: '惊奇队长',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Happy_Death_Day_2U.jpeg',
+        title: "Happy Death Day 2U",
+        chinesetitle: '忌日快乐2',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dying_to_Survive.jpeg',
+        title: "Dying to Survive",
+        chinesetitle: '我不是药神',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Pokémon-The_First_Movie.jpeg',
+        title: "Pokémon: The First Movie",
+        chinesetitle: '宠物小精灵：超梦的逆袭',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Bad_Genius.jpeg',
+        title: "Bad Genius",
+        chinesetitle: '天才枪手',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dragon_Ball_Super-Broly.jpeg',
+        title: "Dragon Ball Super: Broly",
+        chinesetitle: '龙珠超：布罗利',
+        type: '2'
+    },{
 		image: 'dist/images/movies/Digimon_Adventure_Tri_6.jpeg',
 		title: "Digimon Adventure Tri. 6",
 		chinesetitle: '数码宝贝大冒险tri. 第6章：我们的未来',
