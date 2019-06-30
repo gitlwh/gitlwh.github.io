@@ -307,6 +307,71 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/Venom.jpeg',
+        title: "Venom",
+        chinesetitle: '毒液：致命守护者',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Animal_World.jpeg',
+        title: "Animal World",
+        chinesetitle: '动物世界',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Never_Look_Away.jpeg',
+        title: "Never Look Away",
+        chinesetitle: '无主之作',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Anna.jpeg',
+        title: "Anna",
+        chinesetitle: '安娜',
+        type: '2'
+    },{
+        image: 'dist/images/movies/No_Mercy.jpeg',
+        title: "No Mercy",
+        chinesetitle: '姐姐',
+        type: '2'
+    },{
+        image: 'dist/images/movies/John_Wick_Chapter_3_Parabellum.jpeg',
+        title: "John Wick: Chapter 3 – Parabellum",
+        chinesetitle: '疾速备战',
+        type: '2'
+    },{
+        image: 'dist/images/movies/John_Wick.jpeg',
+        title: "John Wick",
+        chinesetitle: '疾速追杀',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Bold_The_Corrupt_And_The_Beautiful.jpeg',
+        title: "The Bold, The Corrupt And The Beautiful",
+        chinesetitle: '血观音',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Searching.jpeg',
+        title: "Searching",
+        chinesetitle: '网络谜踪',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Wrath_of_Silence.jpeg',
+        title: "Wrath of Silence",
+        chinesetitle: '暴裂无声',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ruben_Brandt_Collector.jpeg',
+        title: "Ruben Brandt, Collector",
+        chinesetitle: '盗梦特攻队',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Bohemian_Rhapsody.jpeg',
+        title: "Bohemian Rhapsody",
+        chinesetitle: '波西米亚狂想曲',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Green_Book.jpeg',
+        title: "Green Book",
+        chinesetitle: '绿皮书',
+        type: '2'
+    },{
         image: 'dist/images/movies/Avengers-Endgame.jpeg',
         title: "Avengers: Endgame",
         chinesetitle: '复仇者联盟4：终局之战',
