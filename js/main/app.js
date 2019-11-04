@@ -307,6 +307,131 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/Dangal.jpeg',
+        title: "Dangal",
+        chinesetitle: '摔跤吧！爸爸',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Midsommar.jpeg',
+        title: "Midsommar",
+        chinesetitle: '仲夏夜惊魂',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Gangster_The_Cop_The_Devil.jpeg',
+        title: "The Gangster, The Cop, The Devil",
+        chinesetitle: '恶人传',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Countdown.jpeg',
+        title: "Countdown",
+        chinesetitle: '倒忌时',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Fate_stay_night_Heaven_s_Feel_II_Lost_Butterfly.jpeg',
+        title: "Fate/stay night: Heaven's Feel II. Lost Butterfly",
+        chinesetitle: '命运之夜——天之杯II ：迷失之蝶',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Pokémon_Detective_Pikachu.jpeg',
+        title: "Pokémon Detective Pikachu",
+        chinesetitle: '大侦探皮卡丘',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Pegasus.jpeg',
+        title: "Pegasus",
+        chinesetitle: '飞驰人生',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Zombieland_Double_Tap.jpeg',
+        title: "Zombieland: Double Tap",
+        chinesetitle: '丧尸乐园2',
+        type: '2'
+    },{
+        image: 'dist/images/movies/White_Snake.jpeg',
+        title: "White Snake",
+        chinesetitle: '白蛇：缘起',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Bumblebee.jpg',
+        title: "Bumblebee",
+        chinesetitle: '大黄蜂',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Joker.jpeg',
+        title: "Joker",
+        chinesetitle: '小丑',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Who_You_Think_I_Am.jpeg',
+        title: "Who You Think I Am",
+        chinesetitle: '你觉得我是谁',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Doraemon_Nobita_s_Chronicle_of_the_Moon_Exploration.jpeg',
+        title: "Doraemon: Nobita's Chronicle of the Moon Exploration",
+        chinesetitle: '哆啦A梦：大雄的月球探险记',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Parasite.jpeg',
+        title: "Parasite",
+        chinesetitle: '寄生虫',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Hello_Mr_Billionaire.jpeg',
+        title: "Hello Mr. Billionaire",
+        chinesetitle: '西虹市首富',
+        type: '2'
+    },{
+        image: 'dist/images/movies/City_Hunter.jpeg',
+        title: "City Hunter",
+        chinesetitle: '城市猎人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Jinpa.jpeg',
+        title: "Jinpa",
+        chinesetitle: '撞死了一只羊',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Reign_of_the_Supermen.jpeg',
+        title: "Reign of the Supermen",
+        chinesetitle: '超人王朝',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Nutcracker_and_the_Four_Realms.jpeg',
+        title: "The Nutcracker and the Four Realms",
+        chinesetitle: '胡桃夹子和四个王国',
+        type: '2'
+    },{
+        image: 'dist/images/movies/I_Am_Mother.jpeg',
+        title: "I Am Mother",
+        chinesetitle: '吾乃母亲',
+        type: '2'
+    },{
+        image: 'dist/images/movies/It_Chapter_Two.jpeg',
+        title: "It Chapter Two",
+        chinesetitle: '小丑回魂2',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ne_Zha.jpeg',
+        title: "Ne Zha",
+        chinesetitle: '哪吒之魔童降世',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Farewell.jpeg',
+        title: "The Farewell",
+        chinesetitle: '别告诉她',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Natsume_s_Book_of_Friends_the_Movie.jpeg',
+        title: "Natsume's Book of Friends The Movie: Tied to the Temporal World",
+        chinesetitle: '夏目友人帐剧场版',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Mirage.jpeg',
+        title: "Mirage",
+        chinesetitle: '海市蜃楼',
+        type: '2'
+    },{
         image: 'dist/images/movies/Venom.jpeg',
         title: "Venom",
         chinesetitle: '毒液：致命守护者',
