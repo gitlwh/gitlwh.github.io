@@ -307,6 +307,166 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/Little_Women.jpeg',
+        title: "Little Women",
+        chinesetitle: '小妇人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Bird_Box.jpeg',
+        title: "Bird Box",
+        chinesetitle: '蒙上你的眼',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Upgrade.jpeg',
+        title: "Upgrade",
+        chinesetitle: '升级',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Lighthouse.jpeg',
+        title: "The Lighthouse",
+        chinesetitle: '灯塔',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Groundhog_Day.jpeg',
+        title: "Groundhog Day",
+        chinesetitle: '土拨鼠之日',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Tales_of_the_Unusual.jpg',
+        title: "Tales of the Unusual",
+        chinesetitle: '世界奇妙物语 电影特别篇',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Tale_of_Tales.jpeg',
+        title: "Tale of Tales",
+        chinesetitle: '故事的故事',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Once_Upon_a_Time_in_Hollywood.jpeg',
+        title: "Once Upon a Time in Hollywood",
+        chinesetitle: '好莱坞往事',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Tokyo_Godfathers.jpeg',
+        title: "Tokyo Godfathers",
+        chinesetitle: '东京教父',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Asura.jpeg',
+        title: "Asura",
+        chinesetitle: '阿修罗',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Only_Cloud_Knows.jpeg',
+        title: "Only Cloud Knows",
+        chinesetitle: '只有芸知道',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ponyo_on_the_Cliff.jpeg',
+        title: "Ponyo on the Cliff",
+        chinesetitle: '悬崖上的金鱼姬',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Purtity_of_Vengeance.jpeg',
+        title: "The Purtity of Vengeance",
+        chinesetitle: '悬案密码：第64号',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Official_Secrets.jpeg',
+        title: "Official Secrets",
+        chinesetitle: '官方机密',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ready_or_Not.jpeg',
+        title: "Ready or Not",
+        chinesetitle: '准备好了没',
+        type: '2'
+    },{
+        image: 'dist/images/movies/T-34.jpeg',
+        title: "T-34",
+        chinesetitle: 'T-34坦克',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Exit.jpeg',
+        title: "Exit",
+        chinesetitle: '极限逃生',
+        type: '2'
+    },{
+        image: 'dist/images/movies/I_Am_a_Hero.jpeg',
+        title: "I Am a Hero",
+        chinesetitle: '请叫我英雄',
+        type: '2'
+    },{
+        image: 'dist/images/movies/We_Are_Little_Zombies.jpeg',
+        title: "We Are Little Zombies",
+        chinesetitle: '我们是小僵尸',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Unfriended_Dark_Web.jpeg',
+        title: "Unfriended: Dark Web",
+        chinesetitle: '解除好友2：暗网',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Us_and_Them.jpeg',
+        title: "Us and Them",
+        chinesetitle: '后来的我们',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ghos_Stories.jpeg',
+        title: "Ghost Stories",
+        chinesetitle: '鬼故事',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Shoplifters.jpeg',
+        title: "Shoplifters",
+        chinesetitle: '小偷家族',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Whistleblower.jpeg',
+        title: "Whistleblower",
+        chinesetitle: '七个会议',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Somewhere_Winter.jpeg',
+        title: "Somewhere Winter",
+        chinesetitle: '大约在冬季',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Marrowbone.jpeg',
+        title: "Marrowbone",
+        chinesetitle: '马柔本宅秘事',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dearest.jpeg',
+        title: "Dearest",
+        chinesetitle: '亲爱的',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Better_Days.jpeg',
+        title: "Better Days",
+        chinesetitle: '少年的你',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Incident_in_a_Ghost_Land.jpeg',
+        title: "Incident in a Ghost Land",
+        chinesetitle: '噩梦娃娃屋',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Doctor_Sleep.jpeg',
+        title: "Doctor Sleep",
+        chinesetitle: '睡梦医生',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Burning.jpeg',
+        title: "Burning",
+        chinesetitle: '燃烧',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Terminator_Dark_Fate.jpeg',
+        title: "Terminator: Dark Fate",
+        chinesetitle: '终结者：黑暗命运',
+        type: '2'
+    },{
         image: 'dist/images/movies/Dangal.jpeg',
         title: "Dangal",
         chinesetitle: '摔跤吧！爸爸',
