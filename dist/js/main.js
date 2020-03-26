@@ -588,6 +588,121 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/The_Platform.jpeg',
+        title: "The Platform",
+        chinesetitle: '饥饿站台',
+        type: '2'
+    },{
+        image: 'dist/images/movies/One_Piece_Stampede.jpeg',
+        title: "One Piece: Stampede",
+        chinesetitle: '航海王：狂热行动',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Biggest_Little_Farm.jpeg',
+        title: "The Biggest Little Farm",
+        chinesetitle: '最大的小小农场',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Along_with_the_Gods_The_Two_Worlds.jpeg',
+        title: "Along with the Gods: The Two Worlds",
+        chinesetitle: '与神同行：罪与罚',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Life_Without_Principle.jpeg',
+        title: "Life Without Principle",
+        chinesetitle: '夺命金',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Portrait_of_a_Lady_on_Fire.jpeg',
+        title: "Portrait of a Lady on Fire",
+        chinesetitle: '燃烧女子的肖像',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Cowboy_Bebop_The_Movie.jpeg',
+        title: "Cowboy Bebop: The Movie",
+        chinesetitle: '星际牛仔：天国之门',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Jin_Roh_The_Wolf_Brigade.jpeg',
+        title: "Jin-Roh: The Wolf Brigade",
+        chinesetitle: '人狼',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_League_of_Gentlemen_s_Apocalypse.jpeg',
+        title: "The League of Gentlemen's Apocalypse",
+        chinesetitle: '绅士的启示联盟',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Aniara.webp',
+        title: "Aniara",
+        chinesetitle: '安尼亚拉号',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Spider_Man_Far_From_Home.jpeg',
+        title: "Spider-Man: Far From Home",
+        chinesetitle: '蜘蛛侠：英雄远征',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Another_Earth.jpeg',
+        title: "Another Earth",
+        chinesetitle: '另一个地球',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Constantine_City_of_Demons.jpeg',
+        title: "Constantine: City of Demons",
+        chinesetitle: '康斯坦丁：恶魔之城',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Fast_Furious_Presents_Hobbs_Shaw.jpeg',
+        title: "Fast & Furious Presents: Hobbs & Shaw",
+        chinesetitle: '速度与激情：特别行动',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Line_Walker_2_Invisible_Spy.jpeg',
+        title: "Line Walker 2: Invisible Spy",
+        chinesetitle: '使徒行者2：谍影行动',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Benji.jpeg',
+        title: "Benji",
+        chinesetitle: '神探狗笨吉',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ip_Man_4_The_Finale.jpeg',
+        title: "Ip Man 4: The Finale",
+        chinesetitle: '叶问4：完结篇',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Bone_Collector.jpeg',
+        title: "The Bone Collector",
+        chinesetitle: '神秘拼图',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Sweeney_Todd_The_Demon_Barber_of_Fleet_Street.jpeg',
+        title: "Sweeney Todd: The Demon Barber of Fleet Street",
+        chinesetitle: '理发师陶德',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Death_Proof.jpeg',
+        title: "Death Proof",
+        chinesetitle: '金刚不坏',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dark_City.jpeg',
+        title: "Dark City",
+        chinesetitle: '移魂都市',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Detective_Conan_The_Fist_of_Blue_Sapphire.jpeg',
+        title: "Detective Conan: The Fist of Blue Sapphire",
+        chinesetitle: '名侦探柯南：绀青之拳',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Never_Let_Me_Go.jpeg',
+        title: "Never let me go",
+        chinesetitle: '别让我走',
+        type: '2'
+    },{
         image: 'dist/images/movies/Little_Women.jpeg',
         title: "Little Women",
         chinesetitle: '小妇人',
@@ -1268,6 +1383,11 @@ $(function() {
 		chinesetitle: '心理罪',
 		type: '2'
 	},{
+        image: 'dist/images/movies/Legend_of_the_Naga_Pearls.jpeg',
+        title: "Legend of the Naga Pearls",
+        chinesetitle: '鲛珠传',
+        type: '2'
+    },{
 		image: 'dist/images/movies/Wolf_Warrior_2.jpg',
 		title: "Wolf Warrior 2",
 		chinesetitle: '战狼2',
