@@ -307,6 +307,121 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/Coco.jpeg',
+        title: "Coco",
+        chinesetitle: '寻梦环游记',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Ruby_Sparks.jpeg',
+        title: "Ruby Sparks",
+        chinesetitle: '恋恋书中人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Bruce_Almighty.jpeg',
+        title: "Bruce Almighty",
+        chinesetitle: '冒牌天神',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Pietà.jpeg',
+        title: "Pietà",
+        chinesetitle: '圣殇',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Joint_Security_Area.jpeg',
+        title: "Joint Security Area",
+        chinesetitle: '共同警备区',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Montage.jpeg',
+        title: "Montage",
+        chinesetitle: '蒙太奇',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Sad_Movie.jpeg',
+        title: "Sad Movie",
+        chinesetitle: '悲伤电影',
+        type: '2'
+    },{
+        image: 'dist/images/movies/No_Mercy_2.jpeg',
+        title: "No Mercy",
+        chinesetitle: '不可饶恕',
+        type: '2'
+    },{
+        image: 'dist/images/movies/New_World.jpeg',
+        title: "New World",
+        chinesetitle: '新世界',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Art_of_Racing_in_the_Rain.jpeg',
+        title: "The Art of Racing in the Rain",
+        chinesetitle: '我在雨中等你',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Attorney.jpeg',
+        title: "The Attorney",
+        chinesetitle: '辩护人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Murder_by_Death.jpeg',
+        title: "Murder by Death",
+        chinesetitle: '怪宴',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Shadow_Play.jpeg',
+        title: "The Shadow Play",
+        chinesetitle: '风中有朵雨做的云',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Hardcore_Henry.jpeg',
+        title: "Hardcore Henry",
+        chinesetitle: '硬核亨利',
+        type: '2'
+    },{
+        image: 'dist/images/movies/My_Sassy_Girl.jpeg',
+        title: "My Sassy Girl",
+        chinesetitle: '我的野蛮女友',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Escape_from_Pretoria.jpeg',
+        title: "Escape from Pretoria",
+        chinesetitle: '逃离比勒陀利亚',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Goodbye_Mr_Loser.jpeg',
+        title: "Goodbye Mr. Loser",
+        chinesetitle: '夏洛特烦恼',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Intouchables.jpeg',
+        title: "The Intouchables",
+        chinesetitle: '无法触摸',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Pain_and_Glory.jpeg',
+        title: "Pain and Glory",
+        chinesetitle: '痛苦与荣耀',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Knives_Out.jpeg',
+        title: "Knives Out",
+        chinesetitle: '利刃出鞘',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Extreme_Job.jpeg',
+        title: "Extreme Job",
+        chinesetitle: '极限职业',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Send_Me_To_The_Clouds.jpeg',
+        title: "Send Me To The Clouds",
+        chinesetitle: '送我上青云',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Along_with_the_Gods_The_Last_49_Days.jpeg',
+        title: "Along with the Gods: The Last 49 Days",
+        chinesetitle: '与神同行2：因与缘',
+        type: '2'
+    },{
         image: 'dist/images/movies/The_Platform.jpeg',
         title: "The Platform",
         chinesetitle: '饥饿站台',
@@ -1916,6 +2031,11 @@ $(function() {
 		image: 'dist/images/movies/Blitz.jpeg',
 		title: "Blitz",
 		chinesetitle: "玩命追踪",
+		type: '2'
+	},{
+		image: 'dist/images/movies/Don_t_Breathe.jpeg',
+		title: "Don't Breathe",
+		chinesetitle: "屏住呼吸",
 		type: '2'
 	},{
 		image: 'dist/images/movies/Haunter.jpeg',
