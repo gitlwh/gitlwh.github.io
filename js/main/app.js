@@ -307,6 +307,376 @@ $(function() {
 	}];
 
 	var movies = [{
+        image: 'dist/images/movies/The_Wave.webp',
+        title: "The Wave",
+        chinesetitle: '浪潮',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dead_of_Night.jpeg',
+        title: "Dead of Night",
+        chinesetitle: '死亡之夜',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dolores_Claiborne.jpeg',
+        title: "Dolores Claiborne",
+        chinesetitle: '热泪伤痕',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Sex_Is_Zero_2.jpg',
+        title: "Sex Is Zero 2",
+        chinesetitle: '色即是空2',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Tunnel.jpeg',
+        title: "Tunnel",
+        chinesetitle: '隧道',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Double_Booking.webp',
+        title: "Double Booking",
+        chinesetitle: '双重预约',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Sleeping_Murder.jpeg',
+        title: "Sleeping Murder",
+        chinesetitle: '沉睡的谋杀案',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Voice_of_a_Murderer.jpeg',
+        title: "Voice of a Murderer",
+        chinesetitle: '那家伙的声音',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Disappearance_of_Alice_Creed.jpeg',
+        title: "The Disappearance of Alice Creed",
+        chinesetitle: '爱丽丝的失踪',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Wall.jpeg',
+        title: "The Wall",
+        chinesetitle: '生死之墙',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Elite_Squad_The_Enemy_Within.jpeg',
+        title: "Elite Squad: The Enemy Within",
+        chinesetitle: '精英部队2：大敌当前',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Last_Laugh.jpeg',
+        title: "Last Laugh",
+        chinesetitle: '喜丧',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Hudsucker_Proxy.jpeg',
+        title: "The Hudsucker Proxy",
+        chinesetitle: '影子大亨',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Resident_Evil_Damnation.jpeg',
+        title: "Resident Evil: Damnation",
+        chinesetitle: '生化危机：诅咒',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Be_with_You.jpeg',
+        title: "Be with You",
+        chinesetitle: '现在去见你',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Good_Neighbor.jpeg',
+        title: "The Good Neighbor",
+        chinesetitle: '好邻居',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Hereditary.jpeg',
+        title: "Hereditary",
+        chinesetitle: '遗传厄运',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Escape_Plan.jpeg',
+        title: "Escape Plan",
+        chinesetitle: '金蝉脱壳',
+        type: '2'
+    },{
+        image: 'dist/images/movies/JFK.jpeg',
+        title: "JFK",
+        chinesetitle: '刺杀肯尼迪',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Door_Lock.jpeg',
+        title: "Door Lock",
+        chinesetitle: '锁命危机',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Survival_Family.jpg',
+        title: "Survival Family",
+        chinesetitle: '生存家族',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Mother.jpeg',
+        title: "Mother",
+        chinesetitle: '母亲',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Terra_Nova.jpeg',
+        title: "Terra Nova",
+        chinesetitle: '新地群岛',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Insomnia.jpeg',
+        title: "Insomnia",
+        chinesetitle: '失眠症',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Sex_Is_Zero.jpeg',
+        title: "Sex Is Zero",
+        chinesetitle: '色即是空',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Forgotten2.jpeg',
+        title: "Forgotten",
+        chinesetitle: '记忆之夜',
+        type: '2'
+    },{
+        image: 'dist/images/movies/North_by_Northwest.jpeg',
+        title: "North by Northwest",
+        chinesetitle: '西北偏北',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Back_to_the_Future_Part_III.jpeg',
+        title: "Back to the Future Part III",
+        chinesetitle: '回到未来III',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Starbuck.jpeg',
+        title: "Starbuck",
+        chinesetitle: '超级精爸',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Beautiful_Kate.jpeg',
+        title: "Beautiful Kate",
+        chinesetitle: '美丽的凯特',
+        type: '2'
+    },{
+        image: 'dist/images/movies/From_Beijing_with_Love.jpeg',
+        title: "From Beijing with Love",
+        chinesetitle: '国产凌凌漆',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Sum_Of_Histories.jpeg',
+        title: "The Sum Of Histories",
+        chinesetitle: '历史的总和',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Peninsula.jpeg',
+        title: "Peninsula",
+        chinesetitle: '釜山行2：半岛',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Invisible_Man.jpg',
+        title: "The Invisible Man",
+        chinesetitle: '隐形人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Hidden_Man.jpeg',
+        title: "Hidden Man",
+        chinesetitle: '邪不压正',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Assassination.jpeg',
+        title: "Assassination",
+        chinesetitle: '暗杀',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Princess_Aurora.jpeg',
+        title: "Princess Aurora",
+        chinesetitle: '奥罗拉公主',
+        type: '2'
+    },{
+        image: 'dist/images/movies/One_Cut_of_the_Dead.jpeg',
+        title: "One Cut of the Dead",
+        chinesetitle: '摄影机不要停',
+        type: '2'
+    },{
+        image: 'dist/images/movies/100_Yen_Love.jpeg',
+        title: "100 Yen Love",
+        chinesetitle: '百元之恋',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Bothersome_Man.jpeg',
+        title: "The Bothersome Man",
+        chinesetitle: '超完美地狱',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Pet_Sematary.jpeg',
+        title: "Pet Sematary",
+        chinesetitle: '宠物坟场',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Papillon.jpeg',
+        title: "Papillon",
+        chinesetitle: '巴比龙',
+        type: '2'
+    },{
+        image: 'dist/images/movies/A_Story_of_Yonosuke.jpeg',
+        title: "A Story of Yonosuke",
+        chinesetitle: '横道世之介',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Night_and_Fog.jpeg',
+        title: "Night and Fog",
+        chinesetitle: '天水围的夜与雾',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Addams_Family.jpeg',
+        title: "The Addams Family",
+        chinesetitle: '亚当斯一家',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Mr_&_Mrs_Smith.jpeg',
+        title: "Mr. & Mrs. Smith",
+        chinesetitle: '史密斯夫妇',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Housemaid.jpeg',
+        title: "The Housemaid",
+        chinesetitle: '下女',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Dream_Lover.jpeg',
+        title: "Dream Lover",
+        chinesetitle: '蛇蝎情人',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Last_Emperor.jpeg',
+        title: "The Last Emperor",
+        chinesetitle: '末代皇帝',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Fable.jpeg',
+        title: "The Fable",
+        chinesetitle: '杀手寓言',
+        type: '2'
+    },{
+        image: 'dist/images/movies/What_Happened_to_Monday.jpeg',
+        title: "What Happened to Monday",
+        chinesetitle: '猎杀星期一',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Scare_Campaign.jpeg',
+        title: "Scare Campaign",
+        chinesetitle: '恐吓运动',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Stranger_than_Fiction.jpeg',
+        title: "Stranger than Fiction",
+        chinesetitle: '奇幻人生',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Trainspotting.webp',
+        title: "Trainspotting",
+        chinesetitle: '猜火车',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Annihilation.jpeg',
+        title: "Annihilation",
+        chinesetitle: '堙灭',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Point_Break.jpeg',
+        title: "Point Break",
+        chinesetitle: '极盗者',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Scandal_Makers.jpeg',
+        title: "Scandal Makers",
+        chinesetitle: '非常主播',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Hunt.webp',
+        title: "The Hunt",
+        chinesetitle: '狩猎',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Capernaum.jpeg',
+        title: "Capernaum",
+        chinesetitle: '何以为家',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Himeanole.jpeg',
+        title: "Himeanole",
+        chinesetitle: '白昼之雨',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Miracle_in_Cell_No_7.jpeg',
+        title: "Miracle in Cell No. 7",
+        chinesetitle: '七号房的礼物',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Flying_Colors.jpeg',
+        title: "Flying Colors",
+        chinesetitle: '垫底辣妹',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Jojo_Rabbit.jpeg',
+        title: "Jojo Rabbit",
+        chinesetitle: '乔乔的异想世界',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Iceman.jpeg',
+        title: "Iceman",
+        chinesetitle: '冰人四万年',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Wild_Tales.jpeg',
+        title: "Wild Tales",
+        chinesetitle: '蛮荒故事',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Mountain_Cry.jpeg',
+        title: "Mountain Cry",
+        chinesetitle: '喊山',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Cloverfield.jpeg',
+        title: "Cloverfield",
+        chinesetitle: '科洛弗档案',
+        type: '2'
+    },{
+        image: 'dist/images/movies/The_Langoliers.jpeg',
+        title: "The Langoliers",
+        chinesetitle: '时间裂缝',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Koma.jpeg',
+        title: "Koma",
+        chinesetitle: '异界',
+        type: '2'
+    },{
+        image: 'dist/images/movies/3_Iron.jpeg',
+        title: "3-Iron",
+        chinesetitle: '空房间',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Cashback.jpeg',
+        title: "Cashback",
+        chinesetitle: '超市夜未眠',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Balloon.jpeg',
+        title: "Balloon",
+        chinesetitle: '气球',
+        type: '2'
+    },{
+        image: 'dist/images/movies/A_I_Artificial_Intelligence.jpeg',
+        title: "A.I. Artificial Intelligence",
+        chinesetitle: '人工智能',
+        type: '2'
+    },{
+        image: 'dist/images/movies/Devil_s_Pass.jpeg',
+        title: "Devil's Pass",
+        chinesetitle: '迪亚特洛夫事件',
+        type: '2'
+    },{
         image: 'dist/images/movies/Coco.jpeg',
         title: "Coco",
         chinesetitle: '寻梦环游记',
